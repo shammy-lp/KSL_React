@@ -8,5 +8,5 @@ By the end of me building and learning the React framework, I want to learn and 
   4. Improved skills in styling, responsive design and building user-friendly interfaces.
   5. Practical application of React knowledge through building this Kenya Sign Language Tool to reinforce learning.
 
-## Why React?:
-By learning React, I am able to create front-end systems for my machine learning workflows and pipelines. This allows me to intergrate my built machine learning models and pipelines with design interfaces where users can interact with them.
+### Why React?
+By learning React, I am able to create front-end systems for my machine learning workflows and pipelines. This allows me to intergrate my already built machine learning models and pipelines with design interfaces where users can interact with them.
