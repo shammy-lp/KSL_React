@@ -10,3 +10,6 @@ By the end of me building and learning the React framework, I want to learn and 
 
 ### Why React?
 By learning React, I am able to create front-end systems for my machine learning workflows and pipelines. This allows me to intergrate my already built machine learning models and pipelines with design interfaces where users can interact with them.
+
+### End Goal: 
+My end goal is to have a minimum viable tool that lets users view and practice Kenya Sign Language signs for letters and words, with a simple, interactive and responsive interface built using React, while demonstrating my understanding of core React concepts.
