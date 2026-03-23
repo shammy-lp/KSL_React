@@ -50,11 +50,14 @@ If you want to run and test the project on your own machine:
 ``git clone <your-repo-link>``
 
 ``cd <your-project-folder>``
-  3. Install dependencies
+
+  2. Install dependencies
 ``npm install``
-  4. Start the development server
+
+  3. Start the development server
 ``npm run dev``
-  5. Open the app in your browser
+
+  4. Open the app in your browser
 By default, the app will run at:
 http://localhost:5173/
 If the port is in use, Vite will suggest another port like 5174
