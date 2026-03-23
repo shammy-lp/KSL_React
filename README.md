@@ -32,9 +32,9 @@ VS Code (or any code editor)
 
 Web Browser (Chrome, Edge)
 
-Vercel (for deployment)
+Vercel - for deployment
 
-Claude (for development assistance)
+Claude - for development assistance
 
 ### 3. Packages & Setup
 Node.js & npm
