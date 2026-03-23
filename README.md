@@ -64,5 +64,23 @@ http://localhost:5173/
 
 If the port is in use, Vite will suggest another port like 5174
 
+### Option 2: Deploy and Run on Vercel (Recommended)
+  1. Push your project to GitHub
+  2. Go to Vercel and log in
+  3. Import your GitHub repository
+  4. Click Deploy
+
+Vercel will automatically:
+
+Install dependencies ``npm install``
+
+Build the project ``npm run build``
+
+Host the project on a live URL
+
+Access your live app
+
+After deployment, Vercel provides a URL like:
+https://your-app-name.vercel.app
 
 
