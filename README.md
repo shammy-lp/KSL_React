@@ -22,3 +22,18 @@ My end goal is to have a minimum viable tool that lets users view and practice K
   5. **Event Handling** –This lets your app respond to user actions, like clicks or selections.
   6. **Conditional Rendering** – This shows or hides parts of the UI depending on the state, like showing a sign only after a letter is picked.
   7. **Lists & Keys** – Used to display multiple items (like all letters) dynamically and efficiently.
+
+## System Requirements
+### 1. Operating System (OS)
+Windows, macOS or Linux
+
+### 2. Tools & Editors
+VS Code (or any code editor)
+Web Browser (Chrome, Edge)
+Vercel (for deployment)
+Claude (for development assistance)
+
+### 3. Packages & Setup
+Node.js & npm
+Vite or Create React App
+React
