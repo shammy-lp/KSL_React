@@ -47,6 +47,7 @@ React
 ### Option 1: Run Locally (Optional)
 If you want to run and test the project on your own machine:
   1. Clone the repository
+     
 ``git clone <your-repo-link>``
 
 ``cd <your-project-folder>``
@@ -60,6 +61,7 @@ If you want to run and test the project on your own machine:
   4. Open the app in your browser
 By default, the app will run at:
 http://localhost:5173/
+
 If the port is in use, Vite will suggest another port like 5174
 
 
