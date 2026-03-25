@@ -272,7 +272,9 @@ Selecting an answer should:
 
 ## 6.AI Agents & Tools utilised.
 Chat GPT for structuring prompts.
+
 Claude for trouble shooting.
+
 Vercel for building and deployement.
 
 ## 7. AI Prompt Journal
