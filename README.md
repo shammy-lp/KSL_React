@@ -270,8 +270,26 @@ Selecting an answer should:
 
   4. Loop through letters for continuous practice.
 
+## 6.AI Agents & Tools utilised.
+Chat GPT for structuring prompts.
+Claude for trouble shooting.
+Vercel for building and deployement.
+
+## 7. AI Prompt Journal
 
 
+## 8. Common Issues & Fixes 
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Data for KSL alphabet is hard to source | No standardized emoji exist for KSL hand signs | Design custom hand sign emojis in Figma or another design tool |
+| Quiz options repeat or show the same letter | Using a small dataset or not randomizing properly | Expand dataset to full A–Z and randomize options for each question |
+| Cards or UI elements overlap on small screens | Layout not responsive | Use CSS grid/flexbox and Tailwind responsive classes to adapt layout |
+| Animations not smooth or laggy | Large SVGs or heavy motion animations | Optimize SVGs, simplify animations, or use Framer Motion with performance in mind |
+| Score/progress not updating correctly | React state not handled properly or updated asynchronously | Ensure useState hooks are used correctly and update states in response to user actions |
+| Quiz loops infinitely without user notice | No end condition or feedback after all questions | Implement a “quiz complete” message or reset logic after the last question |
+| Users get confused by unfamiliar signs | No visual aid or hints | Include optional tooltips, hover labels, or a reference chart on the Learning Page |
+| Deployment fails on Vercel | Misconfigured Next.js project or missing dependencies | Check `package.json`, ensure correct Node.js version, and run `vercel --prod` after build |
+| Hand signs too small on mobile | Fixed width without scaling | Use responsive sizing (`w-`, `h-` Tailwind classes or `%`) and test on multiple devices |
 
 
 
