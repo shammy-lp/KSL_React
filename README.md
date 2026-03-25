@@ -159,3 +159,93 @@ export default function QuizCard({ question, options, onAnswer }) {
   );
 }
 ```
+### Part 4: /components/ProgressTracker.js
+It shows the user's score and accuracy on the Quiz Page
+
+```
+"use client";
+
+// Displays current score and accuracy
+export default function ProgressTracker({ correct, total }) {
+  const accuracy = total === 0 ? 0 : ((correct / total) * 100).toFixed(1);
+
+  return (
+    <div className="mt-4 p-4 bg-red-600 text-white rounded-xl">
+      <p>Score: {correct} / {total}</p>
+      <p>Accuracy: {accuracy}%</p>
+    </div>
+  );
+}
+```
+
+### Part 5: /app/learn/page.js
+The learning page displays all letters using AlphabetCard components
+
+```
+import AlphabetCard from "../../components/AlphabetCard";
+import { alphabet } from "../../lib/data";
+
+// Learning Page: displays all alphabet letters in a grid
+export default function LearnPage() {
+  return (
+    <div className="min-h-screen bg-green-700 p-6">
+      <h1 className="text-2xl text-white mb-4">Learn KSL Alphabet</h1>
+      <div className="grid grid-cols-3 gap-4">
+        {alphabet.map((item) => (
+          <AlphabetCard
+            key={item.letter}
+            letter={item.letter}
+            sign={item.sign}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+```
+
+### Part 6: /app/quiz/page.js
+The quiz page manages quiz logic, answer checking and progress tracking
+
+```
+"use client";
+import { useState } from "react";
+import { alphabet } from "../../lib/data";
+import QuizCard from "../../components/QuizCard";
+import ProgressTracker from "../../components/ProgressTracker";
+
+// Quiz Page: shows one sign, tracks answers and progress
+export default function QuizPage() {
+  const [current, setCurrent] = useState(0);   // Current question index
+  const [correct, setCorrect] = useState(0);   // Number of correct answers
+  const [total, setTotal] = useState(0);       // Total questions answered
+
+  const question = alphabet[current];          // Current question object
+
+  const handleAnswer = (answer) => {
+    if (answer === question.letter) {
+      setCorrect(correct + 1); // Increment correct if answer matches
+    }
+    setTotal(total + 1);       // Increment total answers
+    setCurrent((prev) => (prev + 1) % alphabet.length); // Go to next question
+  };
+
+  const options = alphabet.map((a) => a.letter); // Options for answers
+
+  return (
+    <div className="min-h-screen bg-black p-6 text-white">
+      <h1 className="text-2xl mb-4">KSL Quiz</h1>
+
+      <QuizCard
+        question={question.sign}
+        options={options}
+        onAnswer={handleAnswer}
+      />
+
+      <ProgressTracker correct={correct} total={total} />
+    </div>
+  );
+}
+```
+
+
