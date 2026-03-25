@@ -126,3 +126,13 @@ export default function AlphabetCard({ letter, sign }) {
   );
 }
 ```
+### Part 2: /lib/data.js
+It stores the alphabet data (letter + hand sign) for Learning and Quiz page
+```
+// Stores the KSL alphabet letters and signs
+export const alphabet = [
+  { letter: "A", sign: "✊🏿" },
+  { letter: "B", sign: "🖐🏿" },
+  { letter: "C", sign: "🤏🏿" },
+];
+```
