@@ -85,6 +85,7 @@ https://your-app-name.vercel.app
 
 ## 5.Minimal Working Examples
 This project demonstrates a simple version of the KSL Alphabet Learner built with Next.js (React).
+
 It includes:
 
   1. A Learning Page displaying the 26 letters of the aphabet with emoji - like animated hand signs.
@@ -93,26 +94,16 @@ It includes:
   4. A simple Kenyan-themed UI using colors inspired by the Kenyan national flag.
 
 ### Project Structure
-``
+```
 /app
-
   /learn
-  
     page.js
-    
   /quiz
-  
     page.js
-    
 /components
-
   AlphabetCard.js
-  
   QuizCard.js
-  
   ProgressTracker.js
-  
 /lib
-
   data.js
-``
+```
