@@ -108,9 +108,7 @@ It includes:
   data.js
 ```
 ### Part 1: /components/AlphabetCard.js
-Function: Displays a single card showing a letter and its hand sign.
-
-Purpose: Used on the Learning Page to visually present each alphabet letter with subtle animation.
+Function: It displays a single card showing a letter and its hand sign.It is used on the Learning Page to visually present each alphabet letter with subtle animation.
 
 ```
 "use client";
