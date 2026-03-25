@@ -95,14 +95,24 @@ It includes:
 ### Project Structure
 ``
 /app
+
   /learn
+  
     page.js
+    
   /quiz
+  
     page.js
+    
 /components
+
   AlphabetCard.js
+  
   QuizCard.js
+  
   ProgressTracker.js
+  
 /lib
+
   data.js
 ``
