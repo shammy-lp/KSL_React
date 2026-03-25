@@ -286,6 +286,11 @@ Vercel for building and deployement.
 | Animations not smooth or laggy | Large SVGs or heavy motion animations | Optimize SVGs, simplify animations, or use Framer Motion with performance in mind |
 | Hand signs too small on mobile | Fixed width without scaling | Use responsive sizing (`w-`, `h-` Tailwind classes or `%`) and test on multiple devices |
 
+## 9. References.
+**Mwangi, P. (2010). Kenya Sign Language Dictionary** - https://ksldictionary.com/ - It is used to verify KSL letters and hand signs.
+**Mwangi, P., & Ombati, B. (2017). Learning Kenya Sign Language in Schools:** - It offers insights on KSL learning methods and sign usage.
+**Kenya National Association of the Deaf (KNAD)** - https://knad.or.ke/ - The Association provides official KSL signs and guidance.
+
 
 
 
