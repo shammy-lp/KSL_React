@@ -247,5 +247,20 @@ export default function QuizPage() {
   );
 }
 ```
+## Web Expected Behaviour.
+### 1. Learning Page(``/learn/``)
+It should show a grid of alphabet cards with hand signs and letters.
+The cards should animate slightly on hover.
+It should be Kenyan-themed for background and UI Design.
+It should help users to browse and memorize the KSL alphabet.
+
+### 2. 
+
+
+
+
+
+
+
 
 
