@@ -81,7 +81,7 @@ Host the project on a live URL
 Access your live app
 
 After deployment, Vercel provides a URL like:
-https://your-app-name.vercel.app
+https://v0-ksl-learn-app.vercel.app/
 
 ## 5.Minimal Working Examples
 This project demonstrates a simple version of the KSL Alphabet Learner built with Next.js (React).
@@ -289,6 +289,8 @@ Vercel for building and deployement.
 | Hand signs too small on mobile | Fixed width without scaling | Use responsive sizing (`w-`, `h-` Tailwind classes or `%`) and test on multiple devices |
 
 ## 9. References.
+**Kenya Sign Language Alphabet Learner Tool:** - https://v0-ksl-learn-app.vercel.app/ - The Final Minimum Viable Tool for Learning Kenya Sign Language.
+
 **Mwangi, P. (2010). Kenya Sign Language Dictionary** - https://ksldictionary.com/ - It is used to verify KSL letters and hand signs.
 
 **Mwangi, P., & Ombati, B. (2017). Learning Kenya Sign Language in Schools:** - It offers insights on KSL learning methods and sign usage.
