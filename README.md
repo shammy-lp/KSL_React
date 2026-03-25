@@ -107,3 +107,24 @@ It includes:
 /lib
   data.js
 ```
+### Part 1: /components/AlphabetCard.js
+Function: Displays a single card showing a letter and its hand sign.
+
+Purpose: Used on the Learning Page to visually present each alphabet letter with subtle animation.
+
+```
+"use client";
+import { motion } from "framer-motion";
+
+export default function AlphabetCard({ letter, sign }) {
+  return (
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      className="p-4 bg-black text-white rounded-xl text-center shadow-md"
+    >
+      <div className="text-4xl">{sign}</div>
+      <div className="mt-2 text-lg font-bold">{letter}</div>
+    </motion.div>
+  );
+}
+```
