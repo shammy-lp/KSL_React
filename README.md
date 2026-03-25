@@ -1,4 +1,4 @@
-# Title: Learning React Framework by Creating a Kenya Sign Language Tool.
+# Title: Learning React Framework by Creating a Kenya Sign Language Learning Tool.
 
 ## 1.Objectives
 By the end of me building and learning the React framework, I want to learn and accomplish:
