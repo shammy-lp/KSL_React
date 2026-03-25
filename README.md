@@ -295,7 +295,8 @@ Vercel for building and deployement.
 
 **Kenya National Association of the Deaf (KNAD)** - https://knad.or.ke/ - The Association provides official KSL signs and guidance.
 
-
+## 10. DISCLAIMER:
+The hand sign emojis used in this application are not fully accurate representations of Kenya Sign Language (KSL), as there are currently no standard emojis for the Deaf community. These placeholders are for demonstration purposes only. Custom hand sign visuals will be designed and updated once finalized to accurately represent each KSL letter.
 
 
 
