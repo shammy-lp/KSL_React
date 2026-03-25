@@ -248,13 +248,29 @@ export default function QuizPage() {
 }
 ```
 ## Web Expected Behaviour.
-### 1. Learning Page(``/learn/``)
+### 1. Learning Page (``/learn/``)
 It should show a grid of alphabet cards with hand signs and letters.
+
 The cards should animate slightly on hover.
+
 It should be Kenyan-themed for background and UI Design.
+
 It should help users to browse and memorize the KSL alphabet.
 
-### 2. 
+### 2. Quiz Page (``/quiz``)
+It should display one hand sign at a time with multiple letter answer options.
+
+Selecting an answer should:
+
+  1. Update correct count and total questions
+
+  2. Show accuracy % in real-time
+
+  3. Move to the next question
+
+  4. Loop through letters for continuous practice.
+
+
 
 
 
