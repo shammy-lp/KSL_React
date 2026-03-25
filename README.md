@@ -136,3 +136,26 @@ export const alphabet = [
   { letter: "C", sign: "🤏🏿" },
 ];
 ```
+### Part 3: /components/QuizCard.js
+It shows one quiz question (sign) and multiple answer letter buttons
+
+```
+"use client";
+// QuizCard Component: displays a question and multiple answer buttons
+export default function QuizCard({ question, options, onAnswer }) {
+  return (
+    <div className="bg-white p-4 rounded-xl shadow-md text-black">
+      <div className="text-3xl mb-4 text-center">{question}</div> {/* Sign */}
+      {options.map((opt) => (
+        <button
+          key={opt}
+          onClick={() => onAnswer(opt)}
+          className="block w-full mb-2 p-2 bg-green-600 text-white rounded"
+        >
+          {opt} {/* Answer option */}
+        </button>
+      ))}
+    </div>
+  );
+}
+```
