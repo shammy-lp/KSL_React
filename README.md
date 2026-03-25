@@ -288,7 +288,9 @@ Vercel for building and deployement.
 
 ## 9. References.
 **Mwangi, P. (2010). Kenya Sign Language Dictionary** - https://ksldictionary.com/ - It is used to verify KSL letters and hand signs.
+
 **Mwangi, P., & Ombati, B. (2017). Learning Kenya Sign Language in Schools:** - It offers insights on KSL learning methods and sign usage.
+
 **Kenya National Association of the Deaf (KNAD)** - https://knad.or.ke/ - The Association provides official KSL signs and guidance.
 
 
